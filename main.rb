@@ -4,8 +4,12 @@ require_relative 'player'
 require_relative 'enemy'
 
 font = Font.new(32) # 追加
-player_img = Image.load("image/player.png")
-enemy_img = Image.load("image/enemy.png")
+#画面サイズ
+Window.width= 1280
+Window.height= 720
+
+#player_img = Image.load("image/player.png")
+#enemy_img = Image.load("image/enemy.png")
 
 player = Player.new(100, 100, player_img)
 enemies = []
