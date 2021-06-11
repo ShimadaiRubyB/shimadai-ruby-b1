@@ -1,7 +1,5 @@
 class Player < Sprite
   attr_accessor :score # 追加
-  #位置座標にもアクセサを追加
-
   def initialize(x, y, image) # 追加
     @score = 0
     super
