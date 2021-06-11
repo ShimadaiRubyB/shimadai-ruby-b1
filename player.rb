@@ -11,7 +11,7 @@ class Player < Sprite
     #入力に使うキーを変更（時間に余裕があれば）
   end
 
-  def shot # 追加
+  def hit # 追加
     @score += 1
   end
   #加点の方法を修正
