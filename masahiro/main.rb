@@ -18,11 +18,13 @@ Window.loop do
   player.update
   player.draw
 
+
+
   Sprite.draw(enemies)
 
   Sprite.check(player, enemies)
   Sprite.check(enemies, enemies)
-  enemies.update
+  enemies.update=(Player.x,Player.y)
   enemies.draw
 
 
